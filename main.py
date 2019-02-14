@@ -4,7 +4,7 @@ from button import Button
 
 class Calculator:
     def __init__(self):
-        self.win = win = GraphWin("Calculator", 500, 500)
+        self.win = win = GraphWin("Calculator", 250, 250)
         win.setCoords(0,0,6,7)
         win.setBackground("slategrey")
         self.__createButtons()
